@@ -1,0 +1,51 @@
+# Ignore Python bytecode
+*.pyc
+*.pyo
+__pycache__/
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore virtual environments
+venv/
+.env/
+env/
+ENV/
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore log and debug files
+*.log
+*.out
+*.err
+
+# Ignore temporary files
+*.tmp
+*.swp
+*.bak
+*.old
+
+# Ignore config and environment variable files
+*.env
+.env.local
+
+# Ignore data files (optional, if data shouldn't be included in the repo)
+data/raw/
+data/processed/
+
+# Ignore model files (optional, to avoid large files in repo)
+*.h5
+*.ckpt
+
+# Ignore large generated files like word embeddings
+embeddings/
+glove*.txt
+
+# Ignore generated files
+*.pkl
+*.joblib
+
+# Ignore GitHub's Python template exclusions
+# https://github.com/github/gitignore/blob/main/Python.gitignore
